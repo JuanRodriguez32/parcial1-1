@@ -5,7 +5,7 @@ var router = express.Router();
 var GitHubApi = require("github");
   
 // TODO: optional authentication here depending on desired endpoints. See below in README.
-router.get('/getFollowers/:user', function(req, res, next) {
+router.get('/seguidores/:user', function(req, res, next) {
 	
 	var github = new GitHubApi({}); 
 	
