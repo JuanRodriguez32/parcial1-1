@@ -3,22 +3,50 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-size infinite 3s linear;
   height: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height:15vh;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-middle {
+  background-color: #ffffff;
+  color: black;
 }
 
 .App-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+.image {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vh;
+  box-shadow: 5px 5px 3px black;
 }
+
+
+
+
+@keyframes App-logo-size {
+  0% { transform: none; }
+  50% { transform: scale(1.3,1.3); }
+  100% { transform: none; }
+
+}
+
+
+
