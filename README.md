@@ -15,7 +15,7 @@ Este proyecto se desarrolló con el fin de verificar las habilidades aprendidas 
 
 El uso de la aplicación es bastante sencillo, solo se debe digitar el usuario de github y si este es correcto, se visualizará en el título Seguidores de ese usuario las personas a las cuales sigue y en Seguidores cronológicamente se agregara el último usuario digitado, de lo contrario si este no tiene seguidores en el título Seguidores de ese usuario aparecerá un texto que que dice: "Lo siento, ese usuario no tiene seguidores".
 
-La parte creativa fue generar el listado de seguidores de forma vertical cuando este posea seguides adicionando la imagen de perfil tomada desde el Json que genera el API de Github
+La parte creativa fue generar el listado de seguidores de forma vertical, cuando este posea seguidores se mostrará la imagen de perfil de cada uno tomada directamente desde el Json que genera el API de Github en la búsqueda del usuario.
 
 La aplicación se encuentra desplegada en el siguiente link: http://floating-caverns-19717.herokuapp.com/
 
